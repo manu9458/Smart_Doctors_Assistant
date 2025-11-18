@@ -1,0 +1,791 @@
+2025-11-16 14:18:28 | INFO | Gemini configured successfully.
+2025-11-16 14:18:28 | INFO | Chroma DB initialized.
+2025-11-16 14:18:47 | INFO | Gemini configured successfully.
+2025-11-16 14:18:47 | INFO | Gemini configured successfully.
+2025-11-16 14:18:47 | INFO | Gemini configured successfully.
+2025-11-16 14:18:47 | INFO | Gemini configured successfully.
+2025-11-16 14:18:47 | INFO | Gemini configured successfully.
+2025-11-16 14:18:47 | INFO | Final report generation for: Having fefver, cold, body pain
+2025-11-16 14:18:47 | INFO | Final report generation for: Having fefver, cold, body pain
+2025-11-16 14:18:47 | INFO | Final report generation for: Having fefver, cold, body pain
+2025-11-16 14:18:47 | INFO | Symptom Analysis Query: Having fefver, cold, body pain
+2025-11-16 14:18:47 | INFO | Symptom Analysis Query: Having fefver, cold, body pain
+2025-11-16 14:18:47 | INFO | Symptom Analysis Query: Having fefver, cold, body pain
+2025-11-16 14:18:52 | INFO | Symptom analysis completed.
+2025-11-16 14:18:52 | INFO | Symptom analysis completed.
+2025-11-16 14:18:52 | INFO | Symptom analysis completed.
+2025-11-16 14:18:52 | INFO | RAG Query: Having fefver, cold, body pain
+2025-11-16 14:18:52 | INFO | RAG Query: Having fefver, cold, body pain
+2025-11-16 14:18:52 | INFO | RAG Query: Having fefver, cold, body pain
+2025-11-16 14:18:53 | INFO | Found 3 relevant chunks.
+2025-11-16 14:18:53 | INFO | Found 3 relevant chunks.
+2025-11-16 14:18:53 | INFO | Found 3 relevant chunks.
+2025-11-16 14:18:58 | INFO | RAG Summary generated.
+2025-11-16 14:18:58 | INFO | RAG Summary generated.
+2025-11-16 14:18:58 | INFO | RAG Summary generated.
+2025-11-16 14:18:58 | INFO | Final report ready.
+2025-11-16 14:18:58 | INFO | Final report ready.
+2025-11-16 14:18:58 | INFO | Final report ready.
+2025-11-16 14:23:03 | INFO | Gemini configured successfully.
+2025-11-16 14:23:03 | INFO | Gemini configured successfully.
+2025-11-16 14:23:03 | INFO | Gemini configured successfully.
+2025-11-16 14:23:03 | INFO | Gemini configured successfully.
+2025-11-16 14:25:03 | INFO | Gemini configured successfully.
+2025-11-16 14:25:03 | INFO | Gemini configured successfully.
+2025-11-16 14:25:03 | INFO | Gemini configured successfully.
+2025-11-16 14:25:03 | INFO | Gemini configured successfully.
+2025-11-16 14:25:03 | INFO | Gemini configured successfully.
+2025-11-16 14:25:03 | INFO | Indexing PDF: temp.pdf
+2025-11-16 14:25:03 | INFO | Indexing PDF: temp.pdf
+2025-11-16 14:25:03 | INFO | Indexing PDF: temp.pdf
+2025-11-16 14:25:03 | INFO | Indexing PDF: temp.pdf
+2025-11-16 14:25:03 | INFO | Indexing PDF: temp.pdf
+2025-11-16 14:25:13 | INFO | PDF split into 299 chunks.
+2025-11-16 14:25:13 | INFO | PDF split into 299 chunks.
+2025-11-16 14:25:13 | INFO | PDF split into 299 chunks.
+2025-11-16 14:25:13 | INFO | PDF split into 299 chunks.
+2025-11-16 14:25:13 | INFO | PDF split into 299 chunks.
+2025-11-16 14:25:24 | INFO | PDF successfully embedded into vector DB.
+2025-11-16 14:25:24 | INFO | PDF successfully embedded into vector DB.
+2025-11-16 14:25:24 | INFO | PDF successfully embedded into vector DB.
+2025-11-16 14:25:24 | INFO | PDF successfully embedded into vector DB.
+2025-11-16 14:25:24 | INFO | PDF successfully embedded into vector DB.
+2025-11-16 14:28:58 | INFO | Gemini configured successfully.
+2025-11-16 14:28:58 | INFO | Gemini configured successfully.
+2025-11-16 14:28:58 | INFO | Gemini configured successfully.
+2025-11-16 14:28:58 | INFO | Gemini configured successfully.
+2025-11-16 14:28:58 | INFO | Gemini configured successfully.
+2025-11-16 14:28:58 | INFO | Gemini configured successfully.
+2025-11-16 14:28:58 | INFO | Indexing PDF: temp.pdf
+2025-11-16 14:28:58 | INFO | Indexing PDF: temp.pdf
+2025-11-16 14:28:58 | INFO | Indexing PDF: temp.pdf
+2025-11-16 14:28:58 | INFO | Indexing PDF: temp.pdf
+2025-11-16 14:28:58 | INFO | Indexing PDF: temp.pdf
+2025-11-16 14:28:58 | INFO | Indexing PDF: temp.pdf
+2025-11-16 14:28:59 | INFO | Gemini configured successfully.
+2025-11-16 14:28:59 | INFO | Gemini configured successfully.
+2025-11-16 14:28:59 | INFO | Gemini configured successfully.
+2025-11-16 14:28:59 | INFO | Gemini configured successfully.
+2025-11-16 14:28:59 | INFO | Gemini configured successfully.
+2025-11-16 14:28:59 | INFO | Gemini configured successfully.
+2025-11-16 14:28:59 | INFO | Gemini configured successfully.
+2025-11-16 14:28:59 | INFO | Indexing PDF: temp.pdf
+2025-11-16 14:28:59 | INFO | Indexing PDF: temp.pdf
+2025-11-16 14:28:59 | INFO | Indexing PDF: temp.pdf
+2025-11-16 14:28:59 | INFO | Indexing PDF: temp.pdf
+2025-11-16 14:28:59 | INFO | Indexing PDF: temp.pdf
+2025-11-16 14:28:59 | INFO | Indexing PDF: temp.pdf
+2025-11-16 14:28:59 | INFO | Indexing PDF: temp.pdf
+2025-11-16 14:29:06 | INFO | PDF split into 299 chunks.
+2025-11-16 14:29:06 | INFO | PDF split into 299 chunks.
+2025-11-16 14:29:06 | INFO | PDF split into 299 chunks.
+2025-11-16 14:29:06 | INFO | PDF split into 299 chunks.
+2025-11-16 14:29:06 | INFO | PDF split into 299 chunks.
+2025-11-16 14:29:06 | INFO | PDF split into 299 chunks.
+2025-11-16 14:29:06 | INFO | PDF split into 299 chunks.
+2025-11-16 14:29:08 | INFO | PDF split into 299 chunks.
+2025-11-16 14:29:08 | INFO | PDF split into 299 chunks.
+2025-11-16 14:29:08 | INFO | PDF split into 299 chunks.
+2025-11-16 14:29:08 | INFO | PDF split into 299 chunks.
+2025-11-16 14:29:08 | INFO | PDF split into 299 chunks.
+2025-11-16 14:29:08 | INFO | PDF split into 299 chunks.
+2025-11-16 14:29:08 | INFO | PDF split into 299 chunks.
+2025-11-16 14:29:19 | INFO | PDF successfully embedded into vector DB.
+2025-11-16 14:29:19 | INFO | PDF successfully embedded into vector DB.
+2025-11-16 14:29:19 | INFO | PDF successfully embedded into vector DB.
+2025-11-16 14:29:19 | INFO | PDF successfully embedded into vector DB.
+2025-11-16 14:29:19 | INFO | PDF successfully embedded into vector DB.
+2025-11-16 14:29:19 | INFO | PDF successfully embedded into vector DB.
+2025-11-16 14:29:19 | INFO | PDF successfully embedded into vector DB.
+2025-11-16 14:29:21 | INFO | PDF successfully embedded into vector DB.
+2025-11-16 14:29:21 | INFO | PDF successfully embedded into vector DB.
+2025-11-16 14:29:21 | INFO | PDF successfully embedded into vector DB.
+2025-11-16 14:29:21 | INFO | PDF successfully embedded into vector DB.
+2025-11-16 14:29:21 | INFO | PDF successfully embedded into vector DB.
+2025-11-16 14:29:21 | INFO | PDF successfully embedded into vector DB.
+2025-11-16 14:29:21 | INFO | PDF successfully embedded into vector DB.
+2025-11-16 14:29:21 | INFO | Final report generation for: “I have chest pain and fever”
+2025-11-16 14:29:21 | INFO | Final report generation for: “I have chest pain and fever”
+2025-11-16 14:29:21 | INFO | Final report generation for: “I have chest pain and fever”
+2025-11-16 14:29:21 | INFO | Final report generation for: “I have chest pain and fever”
+2025-11-16 14:29:21 | INFO | Final report generation for: “I have chest pain and fever”
+2025-11-16 14:29:21 | INFO | Final report generation for: “I have chest pain and fever”
+2025-11-16 14:29:21 | INFO | Final report generation for: “I have chest pain and fever”
+2025-11-16 14:29:21 | INFO | Symptom Analysis Query: “I have chest pain and fever”
+2025-11-16 14:29:21 | INFO | Symptom Analysis Query: “I have chest pain and fever”
+2025-11-16 14:29:21 | INFO | Symptom Analysis Query: “I have chest pain and fever”
+2025-11-16 14:29:21 | INFO | Symptom Analysis Query: “I have chest pain and fever”
+2025-11-16 14:29:21 | INFO | Symptom Analysis Query: “I have chest pain and fever”
+2025-11-16 14:29:21 | INFO | Symptom Analysis Query: “I have chest pain and fever”
+2025-11-16 14:29:21 | INFO | Symptom Analysis Query: “I have chest pain and fever”
+2025-11-16 14:29:28 | INFO | Symptom analysis completed.
+2025-11-16 14:29:28 | INFO | Symptom analysis completed.
+2025-11-16 14:29:28 | INFO | Symptom analysis completed.
+2025-11-16 14:29:28 | INFO | Symptom analysis completed.
+2025-11-16 14:29:28 | INFO | Symptom analysis completed.
+2025-11-16 14:29:28 | INFO | Symptom analysis completed.
+2025-11-16 14:29:28 | INFO | Symptom analysis completed.
+2025-11-16 14:29:28 | INFO | RAG Query: “I have chest pain and fever”
+2025-11-16 14:29:28 | INFO | RAG Query: “I have chest pain and fever”
+2025-11-16 14:29:28 | INFO | RAG Query: “I have chest pain and fever”
+2025-11-16 14:29:28 | INFO | RAG Query: “I have chest pain and fever”
+2025-11-16 14:29:28 | INFO | RAG Query: “I have chest pain and fever”
+2025-11-16 14:29:28 | INFO | RAG Query: “I have chest pain and fever”
+2025-11-16 14:29:28 | INFO | RAG Query: “I have chest pain and fever”
+2025-11-16 14:29:29 | INFO | Found 3 relevant chunks.
+2025-11-16 14:29:29 | INFO | Found 3 relevant chunks.
+2025-11-16 14:29:29 | INFO | Found 3 relevant chunks.
+2025-11-16 14:29:29 | INFO | Found 3 relevant chunks.
+2025-11-16 14:29:29 | INFO | Found 3 relevant chunks.
+2025-11-16 14:29:29 | INFO | Found 3 relevant chunks.
+2025-11-16 14:29:29 | INFO | Found 3 relevant chunks.
+2025-11-16 14:29:38 | INFO | RAG Summary generated.
+2025-11-16 14:29:38 | INFO | RAG Summary generated.
+2025-11-16 14:29:38 | INFO | RAG Summary generated.
+2025-11-16 14:29:38 | INFO | RAG Summary generated.
+2025-11-16 14:29:38 | INFO | RAG Summary generated.
+2025-11-16 14:29:38 | INFO | RAG Summary generated.
+2025-11-16 14:29:38 | INFO | RAG Summary generated.
+2025-11-16 14:29:38 | INFO | Final report ready.
+2025-11-16 14:29:38 | INFO | Final report ready.
+2025-11-16 14:29:38 | INFO | Final report ready.
+2025-11-16 14:29:38 | INFO | Final report ready.
+2025-11-16 14:29:38 | INFO | Final report ready.
+2025-11-16 14:29:38 | INFO | Final report ready.
+2025-11-16 14:29:38 | INFO | Final report ready.
+2025-11-17 21:25:28 | INFO | Gemini configured successfully.
+2025-11-17 21:25:39 | INFO | Chroma DB initialized.
+2025-11-17 21:32:21 | INFO | Gemini configured successfully.
+2025-11-17 21:32:21 | INFO | Gemini configured successfully.
+2025-11-17 21:32:21 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:32:21 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:32:23 | INFO | PDF split into 21 chunks.
+2025-11-17 21:32:23 | INFO | PDF split into 21 chunks.
+2025-11-17 21:32:30 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:32:30 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:33:37 | INFO | Gemini configured successfully.
+2025-11-17 21:33:37 | INFO | Gemini configured successfully.
+2025-11-17 21:33:37 | INFO | Gemini configured successfully.
+2025-11-17 21:33:38 | INFO | Gemini configured successfully.
+2025-11-17 21:33:38 | INFO | Gemini configured successfully.
+2025-11-17 21:33:38 | INFO | Gemini configured successfully.
+2025-11-17 21:33:38 | INFO | Gemini configured successfully.
+2025-11-17 21:33:38 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:33:38 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:33:38 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:33:38 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:33:39 | INFO | PDF split into 21 chunks.
+2025-11-17 21:33:39 | INFO | PDF split into 21 chunks.
+2025-11-17 21:33:39 | INFO | PDF split into 21 chunks.
+2025-11-17 21:33:39 | INFO | PDF split into 21 chunks.
+2025-11-17 21:33:41 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:33:41 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:33:41 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:33:41 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:33:41 | INFO | Final report generation for: Tell me about my reports, is there any serious, and what is below good 
+2025-11-17 21:33:41 | INFO | Final report generation for: Tell me about my reports, is there any serious, and what is below good 
+2025-11-17 21:33:41 | INFO | Final report generation for: Tell me about my reports, is there any serious, and what is below good 
+2025-11-17 21:33:41 | INFO | Final report generation for: Tell me about my reports, is there any serious, and what is below good 
+2025-11-17 21:33:41 | INFO | RAG Query: Tell me about my reports, is there any serious, and what is below good 
+2025-11-17 21:33:41 | INFO | RAG Query: Tell me about my reports, is there any serious, and what is below good 
+2025-11-17 21:33:41 | INFO | RAG Query: Tell me about my reports, is there any serious, and what is below good 
+2025-11-17 21:33:41 | INFO | RAG Query: Tell me about my reports, is there any serious, and what is below good 
+2025-11-17 21:33:41 | INFO | Found 3 relevant chunks.
+2025-11-17 21:33:41 | INFO | Found 3 relevant chunks.
+2025-11-17 21:33:41 | INFO | Found 3 relevant chunks.
+2025-11-17 21:33:41 | INFO | Found 3 relevant chunks.
+2025-11-17 21:35:24 | INFO | RAG Summary generated.
+2025-11-17 21:35:24 | INFO | RAG Summary generated.
+2025-11-17 21:35:24 | INFO | RAG Summary generated.
+2025-11-17 21:35:24 | INFO | RAG Summary generated.
+2025-11-17 21:35:24 | INFO | Final report ready.
+2025-11-17 21:35:24 | INFO | Final report ready.
+2025-11-17 21:35:24 | INFO | Final report ready.
+2025-11-17 21:35:24 | INFO | Final report ready.
+2025-11-17 21:38:10 | INFO | Gemini configured successfully.
+2025-11-17 21:38:10 | INFO | Gemini configured successfully.
+2025-11-17 21:38:10 | INFO | Gemini configured successfully.
+2025-11-17 21:38:10 | INFO | Gemini configured successfully.
+2025-11-17 21:38:10 | INFO | Gemini configured successfully.
+2025-11-17 21:38:10 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:38:10 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:38:10 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:38:10 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:38:10 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:38:12 | INFO | PDF split into 21 chunks.
+2025-11-17 21:38:12 | INFO | PDF split into 21 chunks.
+2025-11-17 21:38:12 | INFO | PDF split into 21 chunks.
+2025-11-17 21:38:12 | INFO | PDF split into 21 chunks.
+2025-11-17 21:38:12 | INFO | PDF split into 21 chunks.
+2025-11-17 21:38:15 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:38:15 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:38:15 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:38:15 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:38:15 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:38:20 | INFO | Gemini configured successfully.
+2025-11-17 21:38:20 | INFO | Gemini configured successfully.
+2025-11-17 21:38:20 | INFO | Gemini configured successfully.
+2025-11-17 21:38:20 | INFO | Gemini configured successfully.
+2025-11-17 21:38:20 | INFO | Gemini configured successfully.
+2025-11-17 21:38:20 | INFO | Gemini configured successfully.
+2025-11-17 21:38:20 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:38:20 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:38:20 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:38:20 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:38:20 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:38:20 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:38:22 | INFO | PDF split into 21 chunks.
+2025-11-17 21:38:22 | INFO | PDF split into 21 chunks.
+2025-11-17 21:38:22 | INFO | PDF split into 21 chunks.
+2025-11-17 21:38:22 | INFO | PDF split into 21 chunks.
+2025-11-17 21:38:22 | INFO | PDF split into 21 chunks.
+2025-11-17 21:38:22 | INFO | PDF split into 21 chunks.
+2025-11-17 21:38:23 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:38:23 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:38:23 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:38:23 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:38:23 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:38:23 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:38:23 | INFO | Final report generation for: Tell me something new If i will not take care of that it can be increase soon
+2025-11-17 21:38:23 | INFO | Final report generation for: Tell me something new If i will not take care of that it can be increase soon
+2025-11-17 21:38:23 | INFO | Final report generation for: Tell me something new If i will not take care of that it can be increase soon
+2025-11-17 21:38:23 | INFO | Final report generation for: Tell me something new If i will not take care of that it can be increase soon
+2025-11-17 21:38:23 | INFO | Final report generation for: Tell me something new If i will not take care of that it can be increase soon
+2025-11-17 21:38:23 | INFO | Final report generation for: Tell me something new If i will not take care of that it can be increase soon
+2025-11-17 21:38:24 | INFO | RAG Query: Tell me something new If i will not take care of that it can be increase soon
+2025-11-17 21:38:24 | INFO | RAG Query: Tell me something new If i will not take care of that it can be increase soon
+2025-11-17 21:38:24 | INFO | RAG Query: Tell me something new If i will not take care of that it can be increase soon
+2025-11-17 21:38:24 | INFO | RAG Query: Tell me something new If i will not take care of that it can be increase soon
+2025-11-17 21:38:24 | INFO | RAG Query: Tell me something new If i will not take care of that it can be increase soon
+2025-11-17 21:38:24 | INFO | RAG Query: Tell me something new If i will not take care of that it can be increase soon
+2025-11-17 21:38:24 | INFO | Found 3 relevant chunks.
+2025-11-17 21:38:24 | INFO | Found 3 relevant chunks.
+2025-11-17 21:38:24 | INFO | Found 3 relevant chunks.
+2025-11-17 21:38:24 | INFO | Found 3 relevant chunks.
+2025-11-17 21:38:24 | INFO | Found 3 relevant chunks.
+2025-11-17 21:38:24 | INFO | Found 3 relevant chunks.
+2025-11-17 21:38:45 | INFO | RAG Summary generated.
+2025-11-17 21:38:45 | INFO | RAG Summary generated.
+2025-11-17 21:38:45 | INFO | RAG Summary generated.
+2025-11-17 21:38:45 | INFO | RAG Summary generated.
+2025-11-17 21:38:45 | INFO | RAG Summary generated.
+2025-11-17 21:38:45 | INFO | RAG Summary generated.
+2025-11-17 21:38:45 | INFO | Final report ready.
+2025-11-17 21:38:45 | INFO | Final report ready.
+2025-11-17 21:38:45 | INFO | Final report ready.
+2025-11-17 21:38:45 | INFO | Final report ready.
+2025-11-17 21:38:45 | INFO | Final report ready.
+2025-11-17 21:38:45 | INFO | Final report ready.
+2025-11-17 21:40:14 | INFO | Gemini configured successfully.
+2025-11-17 21:40:14 | INFO | Gemini configured successfully.
+2025-11-17 21:40:14 | INFO | Gemini configured successfully.
+2025-11-17 21:40:14 | INFO | Gemini configured successfully.
+2025-11-17 21:40:14 | INFO | Gemini configured successfully.
+2025-11-17 21:40:14 | INFO | Gemini configured successfully.
+2025-11-17 21:40:14 | INFO | Gemini configured successfully.
+2025-11-17 21:50:52 | INFO | Gemini configured successfully.
+2025-11-17 21:50:52 | INFO | Gemini configured successfully.
+2025-11-17 21:50:52 | INFO | Gemini configured successfully.
+2025-11-17 21:50:52 | INFO | Gemini configured successfully.
+2025-11-17 21:50:52 | INFO | Gemini configured successfully.
+2025-11-17 21:50:52 | INFO | Gemini configured successfully.
+2025-11-17 21:50:52 | INFO | Gemini configured successfully.
+2025-11-17 21:50:52 | INFO | Gemini configured successfully.
+2025-11-17 21:51:21 | INFO | Gemini configured successfully.
+2025-11-17 21:51:21 | INFO | Gemini configured successfully.
+2025-11-17 21:51:21 | INFO | Gemini configured successfully.
+2025-11-17 21:51:21 | INFO | Gemini configured successfully.
+2025-11-17 21:51:21 | INFO | Gemini configured successfully.
+2025-11-17 21:51:21 | INFO | Gemini configured successfully.
+2025-11-17 21:51:21 | INFO | Gemini configured successfully.
+2025-11-17 21:51:21 | INFO | Gemini configured successfully.
+2025-11-17 21:51:21 | INFO | Gemini configured successfully.
+2025-11-17 21:51:42 | INFO | Gemini configured successfully.
+2025-11-17 21:51:42 | INFO | Gemini configured successfully.
+2025-11-17 21:51:42 | INFO | Gemini configured successfully.
+2025-11-17 21:51:42 | INFO | Gemini configured successfully.
+2025-11-17 21:51:42 | INFO | Gemini configured successfully.
+2025-11-17 21:51:42 | INFO | Gemini configured successfully.
+2025-11-17 21:51:42 | INFO | Gemini configured successfully.
+2025-11-17 21:51:42 | INFO | Gemini configured successfully.
+2025-11-17 21:51:42 | INFO | Gemini configured successfully.
+2025-11-17 21:51:42 | INFO | Gemini configured successfully.
+2025-11-17 21:51:50 | INFO | Gemini configured successfully.
+2025-11-17 21:51:50 | INFO | Gemini configured successfully.
+2025-11-17 21:51:50 | INFO | Gemini configured successfully.
+2025-11-17 21:51:50 | INFO | Gemini configured successfully.
+2025-11-17 21:51:50 | INFO | Gemini configured successfully.
+2025-11-17 21:51:50 | INFO | Gemini configured successfully.
+2025-11-17 21:51:50 | INFO | Gemini configured successfully.
+2025-11-17 21:51:50 | INFO | Gemini configured successfully.
+2025-11-17 21:51:50 | INFO | Gemini configured successfully.
+2025-11-17 21:51:50 | INFO | Gemini configured successfully.
+2025-11-17 21:51:50 | INFO | Gemini configured successfully.
+2025-11-17 21:51:51 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:51:51 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:51:51 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:51:51 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:51:51 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:51:51 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:51:51 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:51:51 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:51:51 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:51:51 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:51:51 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:51:52 | INFO | PDF split into 23 chunks.
+2025-11-17 21:51:52 | INFO | PDF split into 23 chunks.
+2025-11-17 21:51:52 | INFO | PDF split into 23 chunks.
+2025-11-17 21:51:52 | INFO | PDF split into 23 chunks.
+2025-11-17 21:51:52 | INFO | PDF split into 23 chunks.
+2025-11-17 21:51:52 | INFO | PDF split into 23 chunks.
+2025-11-17 21:51:52 | INFO | PDF split into 23 chunks.
+2025-11-17 21:51:52 | INFO | PDF split into 23 chunks.
+2025-11-17 21:51:52 | INFO | PDF split into 23 chunks.
+2025-11-17 21:51:52 | INFO | PDF split into 23 chunks.
+2025-11-17 21:51:52 | INFO | PDF split into 23 chunks.
+2025-11-17 21:51:55 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:51:55 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:51:55 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:51:55 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:51:55 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:51:55 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:51:55 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:51:55 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:51:55 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:51:55 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:51:55 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:52:26 | INFO | Gemini configured successfully.
+2025-11-17 21:52:26 | INFO | Gemini configured successfully.
+2025-11-17 21:52:26 | INFO | Gemini configured successfully.
+2025-11-17 21:52:26 | INFO | Gemini configured successfully.
+2025-11-17 21:52:26 | INFO | Gemini configured successfully.
+2025-11-17 21:52:26 | INFO | Gemini configured successfully.
+2025-11-17 21:52:26 | INFO | Gemini configured successfully.
+2025-11-17 21:52:26 | INFO | Gemini configured successfully.
+2025-11-17 21:52:26 | INFO | Gemini configured successfully.
+2025-11-17 21:52:26 | INFO | Gemini configured successfully.
+2025-11-17 21:52:26 | INFO | Gemini configured successfully.
+2025-11-17 21:52:26 | INFO | Gemini configured successfully.
+2025-11-17 21:52:27 | INFO | Gemini configured successfully.
+2025-11-17 21:52:27 | INFO | Gemini configured successfully.
+2025-11-17 21:52:27 | INFO | Gemini configured successfully.
+2025-11-17 21:52:27 | INFO | Gemini configured successfully.
+2025-11-17 21:52:27 | INFO | Gemini configured successfully.
+2025-11-17 21:52:27 | INFO | Gemini configured successfully.
+2025-11-17 21:52:27 | INFO | Gemini configured successfully.
+2025-11-17 21:52:27 | INFO | Gemini configured successfully.
+2025-11-17 21:52:27 | INFO | Gemini configured successfully.
+2025-11-17 21:52:27 | INFO | Gemini configured successfully.
+2025-11-17 21:52:27 | INFO | Gemini configured successfully.
+2025-11-17 21:52:27 | INFO | Gemini configured successfully.
+2025-11-17 21:52:27 | INFO | Gemini configured successfully.
+2025-11-17 21:52:27 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:52:27 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:52:27 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:52:27 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:52:27 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:52:27 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:52:27 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:52:27 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:52:27 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:52:27 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:52:27 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:52:27 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:52:27 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:52:27 | INFO | PDF split into 23 chunks.
+2025-11-17 21:52:27 | INFO | PDF split into 23 chunks.
+2025-11-17 21:52:27 | INFO | PDF split into 23 chunks.
+2025-11-17 21:52:27 | INFO | PDF split into 23 chunks.
+2025-11-17 21:52:27 | INFO | PDF split into 23 chunks.
+2025-11-17 21:52:27 | INFO | PDF split into 23 chunks.
+2025-11-17 21:52:27 | INFO | PDF split into 23 chunks.
+2025-11-17 21:52:27 | INFO | PDF split into 23 chunks.
+2025-11-17 21:52:27 | INFO | PDF split into 23 chunks.
+2025-11-17 21:52:27 | INFO | PDF split into 23 chunks.
+2025-11-17 21:52:27 | INFO | PDF split into 23 chunks.
+2025-11-17 21:52:27 | INFO | PDF split into 23 chunks.
+2025-11-17 21:52:27 | INFO | PDF split into 23 chunks.
+2025-11-17 21:52:29 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:52:29 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:52:29 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:52:29 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:52:29 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:52:29 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:52:29 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:52:29 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:52:29 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:52:29 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:52:29 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:52:29 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:52:29 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:52:29 | INFO | Final report generation for: Explain me about my reports, Is there any serious issue, or what I need to take care.
+2025-11-17 21:52:29 | INFO | Final report generation for: Explain me about my reports, Is there any serious issue, or what I need to take care.
+2025-11-17 21:52:29 | INFO | Final report generation for: Explain me about my reports, Is there any serious issue, or what I need to take care.
+2025-11-17 21:52:29 | INFO | Final report generation for: Explain me about my reports, Is there any serious issue, or what I need to take care.
+2025-11-17 21:52:29 | INFO | Final report generation for: Explain me about my reports, Is there any serious issue, or what I need to take care.
+2025-11-17 21:52:29 | INFO | Final report generation for: Explain me about my reports, Is there any serious issue, or what I need to take care.
+2025-11-17 21:52:29 | INFO | Final report generation for: Explain me about my reports, Is there any serious issue, or what I need to take care.
+2025-11-17 21:52:29 | INFO | Final report generation for: Explain me about my reports, Is there any serious issue, or what I need to take care.
+2025-11-17 21:52:29 | INFO | Final report generation for: Explain me about my reports, Is there any serious issue, or what I need to take care.
+2025-11-17 21:52:29 | INFO | Final report generation for: Explain me about my reports, Is there any serious issue, or what I need to take care.
+2025-11-17 21:52:29 | INFO | Final report generation for: Explain me about my reports, Is there any serious issue, or what I need to take care.
+2025-11-17 21:52:29 | INFO | Final report generation for: Explain me about my reports, Is there any serious issue, or what I need to take care.
+2025-11-17 21:52:29 | INFO | Final report generation for: Explain me about my reports, Is there any serious issue, or what I need to take care.
+2025-11-17 21:52:29 | INFO | RAG Query: Explain me about my reports, Is there any serious issue, or what I need to take care.
+2025-11-17 21:52:29 | INFO | RAG Query: Explain me about my reports, Is there any serious issue, or what I need to take care.
+2025-11-17 21:52:29 | INFO | RAG Query: Explain me about my reports, Is there any serious issue, or what I need to take care.
+2025-11-17 21:52:29 | INFO | RAG Query: Explain me about my reports, Is there any serious issue, or what I need to take care.
+2025-11-17 21:52:29 | INFO | RAG Query: Explain me about my reports, Is there any serious issue, or what I need to take care.
+2025-11-17 21:52:29 | INFO | RAG Query: Explain me about my reports, Is there any serious issue, or what I need to take care.
+2025-11-17 21:52:29 | INFO | RAG Query: Explain me about my reports, Is there any serious issue, or what I need to take care.
+2025-11-17 21:52:29 | INFO | RAG Query: Explain me about my reports, Is there any serious issue, or what I need to take care.
+2025-11-17 21:52:29 | INFO | RAG Query: Explain me about my reports, Is there any serious issue, or what I need to take care.
+2025-11-17 21:52:29 | INFO | RAG Query: Explain me about my reports, Is there any serious issue, or what I need to take care.
+2025-11-17 21:52:29 | INFO | RAG Query: Explain me about my reports, Is there any serious issue, or what I need to take care.
+2025-11-17 21:52:29 | INFO | RAG Query: Explain me about my reports, Is there any serious issue, or what I need to take care.
+2025-11-17 21:52:29 | INFO | RAG Query: Explain me about my reports, Is there any serious issue, or what I need to take care.
+2025-11-17 21:52:29 | INFO | Found 3 unique evidence chunks.
+2025-11-17 21:52:29 | INFO | Found 3 unique evidence chunks.
+2025-11-17 21:52:29 | INFO | Found 3 unique evidence chunks.
+2025-11-17 21:52:29 | INFO | Found 3 unique evidence chunks.
+2025-11-17 21:52:29 | INFO | Found 3 unique evidence chunks.
+2025-11-17 21:52:29 | INFO | Found 3 unique evidence chunks.
+2025-11-17 21:52:29 | INFO | Found 3 unique evidence chunks.
+2025-11-17 21:52:29 | INFO | Found 3 unique evidence chunks.
+2025-11-17 21:52:29 | INFO | Found 3 unique evidence chunks.
+2025-11-17 21:52:29 | INFO | Found 3 unique evidence chunks.
+2025-11-17 21:52:29 | INFO | Found 3 unique evidence chunks.
+2025-11-17 21:52:29 | INFO | Found 3 unique evidence chunks.
+2025-11-17 21:52:29 | INFO | Found 3 unique evidence chunks.
+2025-11-17 21:52:47 | INFO | RAG Summary generated.
+2025-11-17 21:52:47 | INFO | RAG Summary generated.
+2025-11-17 21:52:47 | INFO | RAG Summary generated.
+2025-11-17 21:52:47 | INFO | RAG Summary generated.
+2025-11-17 21:52:47 | INFO | RAG Summary generated.
+2025-11-17 21:52:47 | INFO | RAG Summary generated.
+2025-11-17 21:52:47 | INFO | RAG Summary generated.
+2025-11-17 21:52:47 | INFO | RAG Summary generated.
+2025-11-17 21:52:47 | INFO | RAG Summary generated.
+2025-11-17 21:52:47 | INFO | RAG Summary generated.
+2025-11-17 21:52:47 | INFO | RAG Summary generated.
+2025-11-17 21:52:47 | INFO | RAG Summary generated.
+2025-11-17 21:52:47 | INFO | RAG Summary generated.
+2025-11-17 21:52:47 | INFO | Final report ready.
+2025-11-17 21:52:47 | INFO | Final report ready.
+2025-11-17 21:52:47 | INFO | Final report ready.
+2025-11-17 21:52:47 | INFO | Final report ready.
+2025-11-17 21:52:47 | INFO | Final report ready.
+2025-11-17 21:52:47 | INFO | Final report ready.
+2025-11-17 21:52:47 | INFO | Final report ready.
+2025-11-17 21:52:47 | INFO | Final report ready.
+2025-11-17 21:52:47 | INFO | Final report ready.
+2025-11-17 21:52:47 | INFO | Final report ready.
+2025-11-17 21:52:47 | INFO | Final report ready.
+2025-11-17 21:52:47 | INFO | Final report ready.
+2025-11-17 21:52:47 | INFO | Final report ready.
+2025-11-17 21:55:23 | INFO | Gemini configured successfully.
+2025-11-17 21:55:23 | INFO | Gemini configured successfully.
+2025-11-17 21:55:23 | INFO | Gemini configured successfully.
+2025-11-17 21:55:23 | INFO | Gemini configured successfully.
+2025-11-17 21:55:23 | INFO | Gemini configured successfully.
+2025-11-17 21:55:23 | INFO | Gemini configured successfully.
+2025-11-17 21:55:23 | INFO | Gemini configured successfully.
+2025-11-17 21:55:23 | INFO | Gemini configured successfully.
+2025-11-17 21:55:23 | INFO | Gemini configured successfully.
+2025-11-17 21:55:23 | INFO | Gemini configured successfully.
+2025-11-17 21:55:23 | INFO | Gemini configured successfully.
+2025-11-17 21:55:23 | INFO | Gemini configured successfully.
+2025-11-17 21:55:23 | INFO | Gemini configured successfully.
+2025-11-17 21:55:23 | INFO | Gemini configured successfully.
+2025-11-17 21:55:23 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:55:23 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:55:23 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:55:23 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:55:23 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:55:23 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:55:23 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:55:23 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:55:23 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:55:23 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:55:23 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:55:23 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:55:23 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:55:23 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:55:24 | INFO | PDF split into 23 chunks.
+2025-11-17 21:55:24 | INFO | PDF split into 23 chunks.
+2025-11-17 21:55:24 | INFO | PDF split into 23 chunks.
+2025-11-17 21:55:24 | INFO | PDF split into 23 chunks.
+2025-11-17 21:55:24 | INFO | PDF split into 23 chunks.
+2025-11-17 21:55:24 | INFO | PDF split into 23 chunks.
+2025-11-17 21:55:24 | INFO | PDF split into 23 chunks.
+2025-11-17 21:55:24 | INFO | PDF split into 23 chunks.
+2025-11-17 21:55:24 | INFO | PDF split into 23 chunks.
+2025-11-17 21:55:24 | INFO | PDF split into 23 chunks.
+2025-11-17 21:55:24 | INFO | PDF split into 23 chunks.
+2025-11-17 21:55:24 | INFO | PDF split into 23 chunks.
+2025-11-17 21:55:24 | INFO | PDF split into 23 chunks.
+2025-11-17 21:55:24 | INFO | PDF split into 23 chunks.
+2025-11-17 21:55:26 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:55:26 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:55:26 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:55:26 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:55:26 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:55:26 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:55:26 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:55:26 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:55:26 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:55:26 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:55:26 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:55:26 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:55:26 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:55:26 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:55:28 | INFO | Gemini configured successfully.
+2025-11-17 21:55:28 | INFO | Gemini configured successfully.
+2025-11-17 21:55:28 | INFO | Gemini configured successfully.
+2025-11-17 21:55:28 | INFO | Gemini configured successfully.
+2025-11-17 21:55:28 | INFO | Gemini configured successfully.
+2025-11-17 21:55:28 | INFO | Gemini configured successfully.
+2025-11-17 21:55:28 | INFO | Gemini configured successfully.
+2025-11-17 21:55:28 | INFO | Gemini configured successfully.
+2025-11-17 21:55:28 | INFO | Gemini configured successfully.
+2025-11-17 21:55:28 | INFO | Gemini configured successfully.
+2025-11-17 21:55:28 | INFO | Gemini configured successfully.
+2025-11-17 21:55:28 | INFO | Gemini configured successfully.
+2025-11-17 21:55:28 | INFO | Gemini configured successfully.
+2025-11-17 21:55:28 | INFO | Gemini configured successfully.
+2025-11-17 21:55:28 | INFO | Gemini configured successfully.
+2025-11-17 21:55:28 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:55:28 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:55:28 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:55:28 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:55:28 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:55:28 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:55:28 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:55:28 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:55:28 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:55:28 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:55:28 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:55:28 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:55:28 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:55:28 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:55:28 | INFO | Indexing PDF: temp.pdf
+2025-11-17 21:55:29 | INFO | PDF split into 23 chunks.
+2025-11-17 21:55:29 | INFO | PDF split into 23 chunks.
+2025-11-17 21:55:29 | INFO | PDF split into 23 chunks.
+2025-11-17 21:55:29 | INFO | PDF split into 23 chunks.
+2025-11-17 21:55:29 | INFO | PDF split into 23 chunks.
+2025-11-17 21:55:29 | INFO | PDF split into 23 chunks.
+2025-11-17 21:55:29 | INFO | PDF split into 23 chunks.
+2025-11-17 21:55:29 | INFO | PDF split into 23 chunks.
+2025-11-17 21:55:29 | INFO | PDF split into 23 chunks.
+2025-11-17 21:55:29 | INFO | PDF split into 23 chunks.
+2025-11-17 21:55:29 | INFO | PDF split into 23 chunks.
+2025-11-17 21:55:29 | INFO | PDF split into 23 chunks.
+2025-11-17 21:55:29 | INFO | PDF split into 23 chunks.
+2025-11-17 21:55:29 | INFO | PDF split into 23 chunks.
+2025-11-17 21:55:29 | INFO | PDF split into 23 chunks.
+2025-11-17 21:55:30 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:55:30 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:55:30 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:55:30 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:55:30 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:55:30 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:55:30 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:55:30 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:55:30 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:55:30 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:55:30 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:55:30 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:55:30 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:55:30 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:55:30 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 21:55:30 | INFO | Final report generation for: but i am feeling sick from 2 days, is there any thing mention in these reports
+2025-11-17 21:55:30 | INFO | Final report generation for: but i am feeling sick from 2 days, is there any thing mention in these reports
+2025-11-17 21:55:30 | INFO | Final report generation for: but i am feeling sick from 2 days, is there any thing mention in these reports
+2025-11-17 21:55:30 | INFO | Final report generation for: but i am feeling sick from 2 days, is there any thing mention in these reports
+2025-11-17 21:55:30 | INFO | Final report generation for: but i am feeling sick from 2 days, is there any thing mention in these reports
+2025-11-17 21:55:30 | INFO | Final report generation for: but i am feeling sick from 2 days, is there any thing mention in these reports
+2025-11-17 21:55:30 | INFO | Final report generation for: but i am feeling sick from 2 days, is there any thing mention in these reports
+2025-11-17 21:55:30 | INFO | Final report generation for: but i am feeling sick from 2 days, is there any thing mention in these reports
+2025-11-17 21:55:30 | INFO | Final report generation for: but i am feeling sick from 2 days, is there any thing mention in these reports
+2025-11-17 21:55:30 | INFO | Final report generation for: but i am feeling sick from 2 days, is there any thing mention in these reports
+2025-11-17 21:55:30 | INFO | Final report generation for: but i am feeling sick from 2 days, is there any thing mention in these reports
+2025-11-17 21:55:30 | INFO | Final report generation for: but i am feeling sick from 2 days, is there any thing mention in these reports
+2025-11-17 21:55:30 | INFO | Final report generation for: but i am feeling sick from 2 days, is there any thing mention in these reports
+2025-11-17 21:55:30 | INFO | Final report generation for: but i am feeling sick from 2 days, is there any thing mention in these reports
+2025-11-17 21:55:30 | INFO | Final report generation for: but i am feeling sick from 2 days, is there any thing mention in these reports
+2025-11-17 21:55:30 | INFO | RAG Query: but i am feeling sick from 2 days, is there any thing mention in these reports
+2025-11-17 21:55:30 | INFO | RAG Query: but i am feeling sick from 2 days, is there any thing mention in these reports
+2025-11-17 21:55:30 | INFO | RAG Query: but i am feeling sick from 2 days, is there any thing mention in these reports
+2025-11-17 21:55:30 | INFO | RAG Query: but i am feeling sick from 2 days, is there any thing mention in these reports
+2025-11-17 21:55:30 | INFO | RAG Query: but i am feeling sick from 2 days, is there any thing mention in these reports
+2025-11-17 21:55:30 | INFO | RAG Query: but i am feeling sick from 2 days, is there any thing mention in these reports
+2025-11-17 21:55:30 | INFO | RAG Query: but i am feeling sick from 2 days, is there any thing mention in these reports
+2025-11-17 21:55:30 | INFO | RAG Query: but i am feeling sick from 2 days, is there any thing mention in these reports
+2025-11-17 21:55:30 | INFO | RAG Query: but i am feeling sick from 2 days, is there any thing mention in these reports
+2025-11-17 21:55:30 | INFO | RAG Query: but i am feeling sick from 2 days, is there any thing mention in these reports
+2025-11-17 21:55:30 | INFO | RAG Query: but i am feeling sick from 2 days, is there any thing mention in these reports
+2025-11-17 21:55:30 | INFO | RAG Query: but i am feeling sick from 2 days, is there any thing mention in these reports
+2025-11-17 21:55:30 | INFO | RAG Query: but i am feeling sick from 2 days, is there any thing mention in these reports
+2025-11-17 21:55:30 | INFO | RAG Query: but i am feeling sick from 2 days, is there any thing mention in these reports
+2025-11-17 21:55:30 | INFO | RAG Query: but i am feeling sick from 2 days, is there any thing mention in these reports
+2025-11-17 21:55:31 | INFO | Found 2 unique evidence chunks.
+2025-11-17 21:55:31 | INFO | Found 2 unique evidence chunks.
+2025-11-17 21:55:31 | INFO | Found 2 unique evidence chunks.
+2025-11-17 21:55:31 | INFO | Found 2 unique evidence chunks.
+2025-11-17 21:55:31 | INFO | Found 2 unique evidence chunks.
+2025-11-17 21:55:31 | INFO | Found 2 unique evidence chunks.
+2025-11-17 21:55:31 | INFO | Found 2 unique evidence chunks.
+2025-11-17 21:55:31 | INFO | Found 2 unique evidence chunks.
+2025-11-17 21:55:31 | INFO | Found 2 unique evidence chunks.
+2025-11-17 21:55:31 | INFO | Found 2 unique evidence chunks.
+2025-11-17 21:55:31 | INFO | Found 2 unique evidence chunks.
+2025-11-17 21:55:31 | INFO | Found 2 unique evidence chunks.
+2025-11-17 21:55:31 | INFO | Found 2 unique evidence chunks.
+2025-11-17 21:55:31 | INFO | Found 2 unique evidence chunks.
+2025-11-17 21:55:31 | INFO | Found 2 unique evidence chunks.
+2025-11-17 21:55:36 | INFO | RAG Summary generated.
+2025-11-17 21:55:36 | INFO | RAG Summary generated.
+2025-11-17 21:55:36 | INFO | RAG Summary generated.
+2025-11-17 21:55:36 | INFO | RAG Summary generated.
+2025-11-17 21:55:36 | INFO | RAG Summary generated.
+2025-11-17 21:55:36 | INFO | RAG Summary generated.
+2025-11-17 21:55:36 | INFO | RAG Summary generated.
+2025-11-17 21:55:36 | INFO | RAG Summary generated.
+2025-11-17 21:55:36 | INFO | RAG Summary generated.
+2025-11-17 21:55:36 | INFO | RAG Summary generated.
+2025-11-17 21:55:36 | INFO | RAG Summary generated.
+2025-11-17 21:55:36 | INFO | RAG Summary generated.
+2025-11-17 21:55:36 | INFO | RAG Summary generated.
+2025-11-17 21:55:36 | INFO | RAG Summary generated.
+2025-11-17 21:55:36 | INFO | RAG Summary generated.
+2025-11-17 21:55:36 | INFO | Final report ready.
+2025-11-17 21:55:36 | INFO | Final report ready.
+2025-11-17 21:55:36 | INFO | Final report ready.
+2025-11-17 21:55:36 | INFO | Final report ready.
+2025-11-17 21:55:36 | INFO | Final report ready.
+2025-11-17 21:55:36 | INFO | Final report ready.
+2025-11-17 21:55:36 | INFO | Final report ready.
+2025-11-17 21:55:36 | INFO | Final report ready.
+2025-11-17 21:55:36 | INFO | Final report ready.
+2025-11-17 21:55:36 | INFO | Final report ready.
+2025-11-17 21:55:36 | INFO | Final report ready.
+2025-11-17 21:55:36 | INFO | Final report ready.
+2025-11-17 21:55:36 | INFO | Final report ready.
+2025-11-17 21:55:36 | INFO | Final report ready.
+2025-11-17 21:55:36 | INFO | Final report ready.
+2025-11-17 22:14:01,068 | INFO | Gemini configured successfully.
+2025-11-17 22:14:01,068 | INFO | Gemini configured successfully.
+2025-11-17 22:14:01,068 | INFO | Gemini configured successfully.
+2025-11-17 22:14:01 | INFO | Gemini configured successfully.
+2025-11-17 22:14:01,102 | INFO | Chroma DB initialized.
+2025-11-17 22:14:01,102 | INFO | Chroma DB initialized.
+2025-11-17 22:14:01,102 | INFO | Chroma DB initialized.
+2025-11-17 22:14:01 | INFO | Chroma DB initialized.
+2025-11-17 22:14:09,714 | INFO | Gemini configured successfully.
+2025-11-17 22:14:09,714 | INFO | Gemini configured successfully.
+2025-11-17 22:14:09,714 | INFO | Gemini configured successfully.
+2025-11-17 22:14:09 | INFO | Gemini configured successfully.
+2025-11-17 22:14:09 | INFO | Gemini configured successfully.
+2025-11-17 22:14:09,751 | INFO | Indexing PDF: temp.pdf
+2025-11-17 22:14:09,751 | INFO | Indexing PDF: temp.pdf
+2025-11-17 22:14:09,751 | INFO | Indexing PDF: temp.pdf
+2025-11-17 22:14:09 | INFO | Indexing PDF: temp.pdf
+2025-11-17 22:14:09 | INFO | Indexing PDF: temp.pdf
+2025-11-17 22:14:10,287 | INFO | PDF split into 23 chunks.
+2025-11-17 22:14:10,287 | INFO | PDF split into 23 chunks.
+2025-11-17 22:14:10,287 | INFO | PDF split into 23 chunks.
+2025-11-17 22:14:10 | INFO | PDF split into 23 chunks.
+2025-11-17 22:14:10 | INFO | PDF split into 23 chunks.
+2025-11-17 22:14:11,556 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 22:14:11,556 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 22:14:11,556 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 22:14:11 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 22:14:11 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 22:14:20,696 | INFO | Gemini configured successfully.
+2025-11-17 22:14:20,696 | INFO | Gemini configured successfully.
+2025-11-17 22:14:20,696 | INFO | Gemini configured successfully.
+2025-11-17 22:14:20 | INFO | Gemini configured successfully.
+2025-11-17 22:14:20 | INFO | Gemini configured successfully.
+2025-11-17 22:14:20 | INFO | Gemini configured successfully.
+2025-11-17 22:14:20,715 | INFO | Indexing PDF: temp.pdf
+2025-11-17 22:14:20,715 | INFO | Indexing PDF: temp.pdf
+2025-11-17 22:14:20,715 | INFO | Indexing PDF: temp.pdf
+2025-11-17 22:14:20 | INFO | Indexing PDF: temp.pdf
+2025-11-17 22:14:20 | INFO | Indexing PDF: temp.pdf
+2025-11-17 22:14:20 | INFO | Indexing PDF: temp.pdf
+2025-11-17 22:14:20,939 | INFO | PDF split into 23 chunks.
+2025-11-17 22:14:20,939 | INFO | PDF split into 23 chunks.
+2025-11-17 22:14:20,939 | INFO | PDF split into 23 chunks.
+2025-11-17 22:14:20 | INFO | PDF split into 23 chunks.
+2025-11-17 22:14:20 | INFO | PDF split into 23 chunks.
+2025-11-17 22:14:20 | INFO | PDF split into 23 chunks.
+2025-11-17 22:14:22,041 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 22:14:22,041 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 22:14:22,041 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 22:14:22 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 22:14:22 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 22:14:22 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 22:14:25,714 | INFO | Gemini configured successfully.
+2025-11-17 22:14:25,714 | INFO | Gemini configured successfully.
+2025-11-17 22:14:25,714 | INFO | Gemini configured successfully.
+2025-11-17 22:14:25 | INFO | Gemini configured successfully.
+2025-11-17 22:14:25 | INFO | Gemini configured successfully.
+2025-11-17 22:14:25 | INFO | Gemini configured successfully.
+2025-11-17 22:14:25 | INFO | Gemini configured successfully.
+2025-11-17 22:14:25,743 | INFO | Indexing PDF: temp.pdf
+2025-11-17 22:14:25,743 | INFO | Indexing PDF: temp.pdf
+2025-11-17 22:14:25,743 | INFO | Indexing PDF: temp.pdf
+2025-11-17 22:14:25 | INFO | Indexing PDF: temp.pdf
+2025-11-17 22:14:25 | INFO | Indexing PDF: temp.pdf
+2025-11-17 22:14:25 | INFO | Indexing PDF: temp.pdf
+2025-11-17 22:14:25 | INFO | Indexing PDF: temp.pdf
+2025-11-17 22:14:26,239 | INFO | PDF split into 23 chunks.
+2025-11-17 22:14:26,239 | INFO | PDF split into 23 chunks.
+2025-11-17 22:14:26,239 | INFO | PDF split into 23 chunks.
+2025-11-17 22:14:26 | INFO | PDF split into 23 chunks.
+2025-11-17 22:14:26 | INFO | PDF split into 23 chunks.
+2025-11-17 22:14:26 | INFO | PDF split into 23 chunks.
+2025-11-17 22:14:26 | INFO | PDF split into 23 chunks.
+2025-11-17 22:14:27,541 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 22:14:27,541 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 22:14:27,541 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 22:14:27 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 22:14:27 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 22:14:27 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 22:14:27 | INFO | PDF successfully embedded into vector DB.
+2025-11-17 22:14:27,590 | INFO | Final report generation for: explain me about this report
+2025-11-17 22:14:27,590 | INFO | Final report generation for: explain me about this report
+2025-11-17 22:14:27,590 | INFO | Final report generation for: explain me about this report
+2025-11-17 22:14:27 | INFO | Final report generation for: explain me about this report
+2025-11-17 22:14:27 | INFO | Final report generation for: explain me about this report
+2025-11-17 22:14:27 | INFO | Final report generation for: explain me about this report
+2025-11-17 22:14:27 | INFO | Final report generation for: explain me about this report
+2025-11-17 22:14:27,621 | INFO | RAG Query: explain me about this report
+2025-11-17 22:14:27,621 | INFO | RAG Query: explain me about this report
+2025-11-17 22:14:27,621 | INFO | RAG Query: explain me about this report
+2025-11-17 22:14:27 | INFO | RAG Query: explain me about this report
+2025-11-17 22:14:27 | INFO | RAG Query: explain me about this report
+2025-11-17 22:14:27 | INFO | RAG Query: explain me about this report
+2025-11-17 22:14:27 | INFO | RAG Query: explain me about this report
+2025-11-17 22:14:28,147 | INFO | Found 1 unique evidence chunks.
+2025-11-17 22:14:28,147 | INFO | Found 1 unique evidence chunks.
+2025-11-17 22:14:28,147 | INFO | Found 1 unique evidence chunks.
+2025-11-17 22:14:28 | INFO | Found 1 unique evidence chunks.
+2025-11-17 22:14:28 | INFO | Found 1 unique evidence chunks.
+2025-11-17 22:14:28 | INFO | Found 1 unique evidence chunks.
+2025-11-17 22:14:28 | INFO | Found 1 unique evidence chunks.
+2025-11-17 22:14:44,550 | INFO | RAG Summary generated.
+2025-11-17 22:14:44,550 | INFO | RAG Summary generated.
+2025-11-17 22:14:44,550 | INFO | RAG Summary generated.
+2025-11-17 22:14:44 | INFO | RAG Summary generated.
+2025-11-17 22:14:44 | INFO | RAG Summary generated.
+2025-11-17 22:14:44 | INFO | RAG Summary generated.
+2025-11-17 22:14:44 | INFO | RAG Summary generated.
+2025-11-17 22:14:44,566 | INFO | Final report ready.
+2025-11-17 22:14:44,566 | INFO | Final report ready.
+2025-11-17 22:14:44,566 | INFO | Final report ready.
+2025-11-17 22:14:44 | INFO | Final report ready.
+2025-11-17 22:14:44 | INFO | Final report ready.
+2025-11-17 22:14:44 | INFO | Final report ready.
+2025-11-17 22:14:44 | INFO | Final report ready.
