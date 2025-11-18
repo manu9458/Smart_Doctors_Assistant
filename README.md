@@ -1,10 +1,7 @@
 # Smart Doctor's Assistant — Backend (Gemini Version)
 
 **Symptom Analyzer + Medical Knowledge Retriever (RAG)**  
-Backend built with **FastAPI**, **LangChain**, **Google Gemini**, and **ChromaDB**.
-
-> ⚠️ *This project is for educational use only. NOT for real medical advice.*
-
+Backend built with **LangChain**, **Google Gemini**, and **ChromaDB**.
 ---
 
 # Features
