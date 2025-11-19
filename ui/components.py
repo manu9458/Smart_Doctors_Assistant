@@ -4,7 +4,7 @@ import streamlit as st
 # SIDEBAR
 # ------------------------------------------------------
 def render_sidebar(settings):
-    st.sidebar.title("⚙️ Settings")
+    st.sidebar.title("Settings")
 
     temp = st.sidebar.slider("Temperature", 0.0, 1.0, float(settings.DEFAULT_TEMP))
     top_k = st.sidebar.slider("Top-K Retriever", 1, 20, int(settings.DEFAULT_TOP_K))
@@ -36,7 +36,7 @@ def render_sidebar(settings):
 # MAIN AREA
 # ------------------------------------------------------
 def render_main_area():
-    st.header("🩺 Smart Doctor Assistant")
+    st.header("Smart Doctor Assistant")
 
     query = st.text_area(
         "Describe your symptoms or question:",
