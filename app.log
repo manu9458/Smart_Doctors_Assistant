@@ -850,3 +850,8 @@
 2025-11-23 17:54:33,343 | INFO | File received: MANU PRATAP SINGH (2).pdf
 2025-11-23 17:54:33,353 | INFO | Saving file to: uploads\uploaded.pdf
 2025-11-23 17:54:33,428 | INFO | Starting PDF embedding
+2025-11-23 17:58:20,744 | INFO | Upload request received
+2025-11-23 17:58:20,770 | INFO | File received: MANU PRATAP SINGH (2).pdf
+2025-11-23 17:58:20,784 | INFO | Saving file to: uploads\uploaded.pdf
+2025-11-23 17:58:20,829 | INFO | Starting PDF embedding
+2025-11-23 17:58:24,308 | INFO | Embedded 23 chunks

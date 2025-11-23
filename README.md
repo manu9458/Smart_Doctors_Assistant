@@ -1,124 +1,117 @@
-- ⚙️ **Customizable Settings** - Adjust AI temperature and retrieval parameters (Top-K).
+# 🩺 Smart Doctor's Assistant
+
+> **Your AI-Powered Medical Companion with Voice Interaction & Document Analysis**
+
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![Flask](https://img.shields.io/badge/Flask-3.0-green)
+![Gemini AI](https://img.shields.io/badge/AI-Google%20Gemini-orange)
+![RAG](https://img.shields.io/badge/Tech-RAG-purple)
+
+**Smart Doctor's Assistant** is a cutting-edge medical analysis tool designed to provide instant, AI-driven insights into symptoms and medical documents. Built with a focus on accessibility and ease of use, it features a **hands-free voice interface**, a modern single-page design, and powerful RAG (Retrieval-Augmented Generation) technology to analyze your personal medical reports.
 
 ---
 
-## 🚀 Quick Start
+## 🌟 Key Features
+
+### 🗣️ Voice-First Experience
+- **Voice Input**: Speak your symptoms naturally using the integrated microphone. No typing required!
+- **Voice Assistant**: The AI reads out the analysis to you, acting like a real medical assistant.
+- **Hands-Free Control**: Perfect for quick consultations or accessibility needs.
+
+### 🧠 Intelligent Analysis
+- **Symptom Checker**: Advanced AI analysis of your symptoms to suggest possible conditions, severity, and home care tips.
+- **RAG Technology**: Upload your own medical PDFs (lab reports, prescriptions) to get personalized answers based on *your* data.
+- **Smart Context**: Combines general medical knowledge with specific details from your uploaded documents.
+
+### 🎨 Modern & Responsive UI
+- **Single-Page Application**: A seamless, scroll-free experience that fits perfectly on any screen.
+- **Glassmorphism Design**: Beautiful, modern aesthetics with animated gradients and translucent cards.
+- **Real-Time Feedback**: Instant toast notifications and loading states keep you informed.
+
+---
+
+## 🛠️ Technology Stack
+
+- **Backend**: Flask (Python)
+- **AI Model**: Google Gemini Pro (via LangChain)
+- **Vector Database**: ChromaDB (for document indexing)
+- **Frontend**: HTML5, CSS3 (Glassmorphism), Vanilla JavaScript
+- **Speech Services**: Web Speech API (Native Browser Support)
+
+---
+
+## 🚀 Getting Started
 
 ### Prerequisites
-- Python 3.8+
-- Google Gemini API Key
+- Python 3.8 or higher
+- A Google Cloud API Key (for Gemini)
 
 ### Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd Smart_Doctors_Assistant
-   ```
+1.  **Clone the Repository**
+    ```bash
+    git clone https://github.com/yourusername/smart-doctors-assistant.git
+    cd Smart_Doctors_Assistant
+    ```
 
-2. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
+2.  **Install Dependencies**
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-3. **Set up environment variables**
-   Create a `.env` file in the root directory:
-   ```env
-   GOOGLE_API_KEY=your_gemini_api_key_here
-   ```
+3.  **Configure Environment**
+    Create a `.env` file in the root directory and add your API key:
+    ```env
+    GOOGLE_API_KEY=your_actual_api_key_here
+    ```
 
-4. **Run the application**
-   ```bash
-   python flask_app.py
-   ```
+4.  **Run the Application**
+    ```bash
+    python flask_app.py
+    ```
 
-5. **Access the app**
-   Open your browser and navigate to `http://localhost:5000`
-
----
-
-## 📖 Usage Guide
-
-### 1. Analyze Symptoms
-- Enter your symptoms or medical questions in the text area.
-- Adjust settings (Temperature and Top-K) if needed.
-- Click **"🔍 Analyze Symptoms"**.
-- View comprehensive results including:
-    - **Symptom Analysis**: Possible conditions, severity, actions, warning signs.
-    - **Medical Knowledge**: Information from indexed PDFs.
-
-
-### 2. Upload Medical Documents
-- Drag and drop a PDF file into the upload area or click to select.
-- Click **"Index PDF"** to add it to the knowledge base.
-- The system will process and index the document for future queries.
-
-### 3. View History
-- Click the floating **"📜"** button in the bottom-right corner.
-- Browse your recent queries.
-- Click any history item to reload that analysis.
-- Clear history with the "Clear History" button.
+5.  **Launch**
+    Open your browser and visit: `http://localhost:5000`
 
 ---
 
-## 🏗️ Project Structure
+## 📖 How to Use
+
+1.  **Speak or Type**: Click the **"🎤 Voice Input"** button and describe your symptoms, or type them in the box.
+2.  **Upload Documents (Optional)**: Drag & drop a medical PDF (e.g., a blood test report) into the upload area and click **"Index PDF"**.
+3.  **Analyze**: Click **"🔍 Analyze Symptoms"**.
+4.  **Listen & Read**: The AI will generate a detailed report and **read it aloud** to you. You can stop the audio at any time with the "🔇 Stop Voice" button.
+
+---
+
+## 📂 Project Structure
 
 ```
 Smart_Doctors_Assistant/
-├── flask_app.py              # Flask backend application
+├── flask_app.py            # Main Application Entry Point
+├── core/                   # Configuration & Database Logic
+│   ├── config.py
+│   └── vector_db.py
+├── services/               # AI & Business Logic
+│   ├── rag_engine.py       # RAG Retrieval System
+│   ├── symptom_engine.py   # Symptom Analysis Logic
+│   ├── embedder.py         # PDF Processing
+│   └── final_report.py     # Response Generation
+├── static/                 # Frontend Assets
+│   ├── css/style.css       # Styling & Animations
+│   └── js/app.js           # Voice & UI Logic
 ├── templates/
-│   └── index.html           # Main HTML template
-├── static/
-│   ├── css/
-│   │   └── style.css        # Modern CSS styling
-│   └── js/
-│       └── app.js           # Frontend JavaScript
-├── core/                    # Core functionality
-│   ├── config.py           # Configuration settings
-│   ├── logger.py           # Logging setup
-│   └── vector_db.py        # ChromaDB vector store
-├── services/               # Business logic
-│   ├── embedder.py         # PDF embedding service
-│   ├── final_report.py     # Report generation
-│   ├── rag_engine.py       # RAG retrieval engine
-│   └── symptom_engine.py   # Symptom analysis engine
-├── uploads/                # Uploaded PDF files
-├── chroma_db/              # Vector database storage
-├── requirements.txt        # Python dependencies
-└── README.md               # This file
+│   └── index.html          # Main User Interface
+└── uploads/                # Temp storage for PDFs
 ```
 
 ---
 
-## 🛠️ Recent Improvements
+## ⚠️ Disclaimer
 
-### UI Overhaul
-- **Single-Screen Layout**: Eliminated scrollbars on the main body; optimized spacing and layout to fit within the viewport.
-- **Clean Code**: Simplified HTML, CSS, and JS for better readability and maintainability.
-- **Visual Polish**: Enhanced gradients, shadows, and typography.
-
-### RAG & Analysis Enhancements
-- **Detailed Responses**: Improved prompts to generate comprehensive, structured medical responses (bullet points, sections).
-
-- **Symptom Analysis**: Structured output covering possible conditions, severity, actions, warning signs, and self-care.
-- **Top-K**: Increased default retrieval count to 10 for richer context.
-
-### Fixes
-- **PDF Upload**: Restored and fixed the PDF upload functionality with better error handling and logging.
-- **Dependencies**: Updated dependencies for better stability.
+**This tool is for informational purposes only.**
+It is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.
 
 ---
 
-## ⚠️ Medical Disclaimer
-
-This application is for **informational and educational purposes only** and should not replace professional medical advice, diagnosis, or treatment. Always consult with a qualified healthcare provider for medical concerns.
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit issues or pull requests.
-
----
-
-**Built with ❤️ using Flask, Google Gemini AI, and Modern Web Technologies**
+**Created with ❤️ by Manu**
