@@ -14,7 +14,7 @@ class Settings:
     CHUNK_OVERLAP: int = 100
 
     DEFAULT_TEMP: float = 0.2
-    DEFAULT_TOP_K: int = 8
+    DEFAULT_TOP_K: int = 10
 
     def validate(self):
         if not self.GOOGLE_API_KEY:

@@ -824,3 +824,23 @@
 2025-11-19 23:43:25,780 | INFO | Report generated.
 2025-11-19 23:44:13,717 | INFO | Report generated.
 2025-11-19 23:45:15,696 | INFO | Report generated.
+2025-11-23 14:09:08,273 | INFO | Report generated.
+2025-11-23 14:20:25,246 | INFO | Report generated.
+2025-11-23 16:48:35,447 | INFO | Report generated.
+2025-11-23 16:50:34,354 | INFO | Report generated.
+2025-11-23 16:58:16,899 | INFO | Upload request received
+2025-11-23 16:58:16,917 | INFO | File received: MANU PRATAP SINGH (2).pdf
+2025-11-23 16:58:16,921 | INFO | Saving file to: uploads\uploaded.pdf
+2025-11-23 16:58:16,929 | INFO | Starting PDF embedding
+2025-11-23 16:58:19,090 | INFO | Embedded 23 chunks
+2025-11-23 16:58:52,385 | INFO | Report generated.
+2025-11-23 16:59:48,996 | INFO | Report generated.
+2025-11-23 17:00:56,911 | INFO | Report generated.
+2025-11-23 17:08:48,311 | INFO | Report generated.
+2025-11-23 17:10:26,369 | INFO | Upload request received
+2025-11-23 17:10:26,396 | INFO | File received: MANU PRATAP SINGH (2).pdf
+2025-11-23 17:10:26,400 | INFO | Saving file to: uploads\uploaded.pdf
+2025-11-23 17:10:26,409 | INFO | Starting PDF embedding
+2025-11-23 17:10:28,098 | INFO | Embedded 23 chunks
+2025-11-23 17:11:15,054 | INFO | Report generated.
+2025-11-23 17:25:01,052 | INFO | Report generated.

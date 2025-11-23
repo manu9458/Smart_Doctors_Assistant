@@ -5,7 +5,12 @@ os.environ["OTEL_SDK_DISABLED"] = "true"
 
 import streamlit as st
 
-st.set_page_config(page_title="Smart Doctor Assistant", layout="wide")
+st.set_page_config(
+    page_title="Smart Doctor's Assistant",
+    page_icon="👨‍⚕️",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
 
 from uuid import uuid4
 from core.config import Settings
@@ -14,6 +19,11 @@ from core.vector_db import load_vector_db
 from services.embedder import embed_pdf
 from services.final_report import generate_report
 from ui.components import render_sidebar, render_main_area, render_result_card
+from ui.styles import get_custom_css
+
+# Inject custom CSS
+st.markdown(get_custom_css(), unsafe_allow_html=True)
+
 
 
 # ---------------------------
@@ -51,15 +61,24 @@ with left:
         with open(tmp, "wb") as f:
             f.write(uploaded_file.read())
 
-        with st.spinner("Indexing PDF..."):
+        with st.spinner("🔄 Indexing PDF... Please wait"):
             count = embed_pdf(tmp, vector_db, settings)
 
         if count > 0:
-            st.success(f"Indexed {count} chunks")
+            st.success(f"✅ Successfully indexed {count} chunks from the document!")
         else:
-            st.error("Failed to index PDF")
+            st.error("❌ Failed to index PDF. Please check the file format and try again.")
+    elif index_pdf_clicked and not uploaded_file:
+        st.warning("⚠️ Please upload a PDF file first before indexing.")
 
-    analyze_clicked = st.button("Analyze", use_container_width=True, type="primary")
+    st.markdown("<div style='margin-top: 1.5rem;'></div>", unsafe_allow_html=True)
+    analyze_clicked = st.button(
+        "🔍 Analyze Symptoms", 
+        use_container_width=True, 
+        type="primary",
+        help="Click to analyze your symptoms and get medical insights"
+    )
+
 
 
 # RIGHT PANEL: Results container
@@ -74,9 +93,9 @@ with right:
 # ---------------------------
 if analyze_clicked:
     if not query.strip():
-        st.error("Please enter your question or symptoms")
+        st.error("⚠️ Please enter your symptoms or medical question before analyzing.")
     else:
-        with st.spinner("Analyzing..."):
+        with st.spinner("🔬 Analyzing your symptoms... This may take a moment"):
             output = generate_report(
                 query=query,
                 vector_store=vector_db,
@@ -92,7 +111,7 @@ if analyze_clicked:
         ):
             output = {
                 "route": "knowledge",
-                "rag_summary": "⚠ No meaningful response generated. Try rephrasing your question.",
+                "rag_summary": "⚠️ Unable to generate a meaningful response. Please try rephrasing your question with more specific details.",
             }
 
         entry = {
