@@ -1,22 +1,17 @@
 # 🩺 Smart Doctor's Assistant
 
-> **Your AI-Powered Medical Companion with Voice Interaction & Document Analysis**
+> **Your AI-Powered Medical Companion with Document Analysis**
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Flask](https://img.shields.io/badge/Flask-3.0-green)
 ![Gemini AI](https://img.shields.io/badge/AI-Google%20Gemini-orange)
 ![RAG](https://img.shields.io/badge/Tech-RAG-purple)
 
-**Smart Doctor's Assistant** is a cutting-edge medical analysis tool designed to provide instant, AI-driven insights into symptoms and medical documents. Built with a focus on accessibility and ease of use, it features a **hands-free voice interface**, a modern single-page design, and powerful RAG (Retrieval-Augmented Generation) technology to analyze your personal medical reports.
+**Smart Doctor's Assistant** is a cutting-edge medical analysis tool designed to provide instant, AI-driven insights into symptoms and medical documents. It features a modern single-page design and powerful RAG (Retrieval-Augmented Generation) technology to analyze your personal medical reports.
 
 ---
 
 ## 🌟 Key Features
-
-### 🗣️ Voice-First Experience
-- **Voice Input**: Speak your symptoms naturally using the integrated microphone. No typing required!
-- **Voice Assistant**: The AI reads out the analysis to you, acting like a real medical assistant.
-- **Hands-Free Control**: Perfect for quick consultations or accessibility needs.
 
 ### 🧠 Intelligent Analysis
 - **Symptom Checker**: Advanced AI analysis of your symptoms to suggest possible conditions, severity, and home care tips.
@@ -27,6 +22,7 @@
 - **Single-Page Application**: A seamless, scroll-free experience that fits perfectly on any screen.
 - **Glassmorphism Design**: Beautiful, modern aesthetics with animated gradients and translucent cards.
 - **Real-Time Feedback**: Instant toast notifications and loading states keep you informed.
+- **Customizable Settings**: Fine-tune the AI's creativity (Temperature) and retrieval depth (Top-K) directly from the UI.
 
 ---
 
@@ -36,7 +32,6 @@
 - **AI Model**: Google Gemini Pro (via LangChain)
 - **Vector Database**: ChromaDB (for document indexing)
 - **Frontend**: HTML5, CSS3 (Glassmorphism), Vanilla JavaScript
-- **Speech Services**: Web Speech API (Native Browser Support)
 
 ---
 
@@ -77,10 +72,13 @@
 
 ## 📖 How to Use
 
-1.  **Speak or Type**: Click the **"🎤 Voice Input"** button and describe your symptoms, or type them in the box.
-2.  **Upload Documents (Optional)**: Drag & drop a medical PDF (e.g., a blood test report) into the upload area and click **"Index PDF"**.
-3.  **Analyze**: Click **"🔍 Analyze Symptoms"**.
-4.  **Listen & Read**: The AI will generate a detailed report and **read it aloud** to you. You can stop the audio at any time with the "🔇 Stop Voice" button.
+1.  **Enter Symptoms**: Type your symptoms or medical questions in the text box.
+2.  **Adjust Settings (Optional)**: Use the sliders to control:
+    *   **Temperature**: Higher values for more creative/varied answers, lower for more focused ones.
+    *   **Top-K**: How many document chunks to retrieve for analysis.
+3.  **Upload Documents (Optional)**: Drag & drop a medical PDF (e.g., a blood test report) into the upload area and click **"Index PDF"**.
+4.  **Analyze**: Click **"🔍 Analyze Symptoms"**.
+5.  **Read Results**: The AI will generate a detailed report, separating symptom analysis from document-based insights.
 
 ---
 
@@ -99,7 +97,7 @@ Smart_Doctors_Assistant/
 │   └── final_report.py     # Response Generation
 ├── static/                 # Frontend Assets
 │   ├── css/style.css       # Styling & Animations
-│   └── js/app.js           # Voice & UI Logic
+│   └── js/app.js           # UI Logic
 ├── templates/
 │   └── index.html          # Main User Interface
 └── uploads/                # Temp storage for PDFs
