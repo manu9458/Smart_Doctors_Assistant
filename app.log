@@ -846,3 +846,7 @@
 2025-11-23 17:25:01,052 | INFO | Report generated.
 2025-11-23 17:32:52,644 | INFO | Report generated.
 2025-11-23 17:51:27,388 | INFO | Report generated.
+2025-11-23 17:54:33,316 | INFO | Upload request received
+2025-11-23 17:54:33,343 | INFO | File received: MANU PRATAP SINGH (2).pdf
+2025-11-23 17:54:33,353 | INFO | Saving file to: uploads\uploaded.pdf
+2025-11-23 17:54:33,428 | INFO | Starting PDF embedding
