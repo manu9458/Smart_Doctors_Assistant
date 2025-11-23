@@ -1,28 +1,3 @@
-# 👨‍⚕️ Smart Doctor's Assistant
-
-**AI-Powered Medical Analysis with RAG Technology & Web Search**
-
-A professional, production-ready medical assistant application built with **Flask**, **Google Gemini**, **LangChain**, and **ChromaDB**. Features a modern, single-page UI, intelligent symptom analysis, and comprehensive medical knowledge retrieval from both local documents and the web.
-
----
-
-## ✨ Features
-
-### Core Functionality
-- 🩺 **Intelligent Symptom Analysis** - Advanced AI-powered symptom interpretation using Gemini Flash/Pro.
-- 📚 **Medical Knowledge Retrieval (RAG)** - Context-aware medical information from indexed documents.
-- 🌐 **Google Search Integration** - Real-time web search to supplement local knowledge with the latest medical information.
-- 🔬 **Smart Router Chain** - Automatically routes queries to symptoms analyzer, knowledge base, or both.
-- 📄 **PDF Document Ingestion** - Upload and index medical reports, research papers, and clinical documents via drag-and-drop.
-- 💾 **Vector Database** - Efficient semantic search using ChromaDB embeddings.
-- 📜 **Query History** - Track and revisit previous analyses with a collapsible sidebar.
-
-### Modern UI/UX
-- 🎨 **Stunning Gradient Design** - Animated gradient background with glassmorphism effects.
-- 📱 **Fully Responsive** - Works seamlessly on desktop, tablet, and mobile devices.
-- ⚡ **Single Page Application** - No page reloads, smooth transitions, and single-screen layout (no scrollbars).
-- 🔍 **Interactive Results** - Beautiful card-based result display with clear visual hierarchy and formatted text.
-- 🔔 **Toast Notifications** - Real-time feedback with elegant toast messages.
 - ⚙️ **Customizable Settings** - Adjust AI temperature and retrieval parameters (Top-K).
 
 ---
@@ -71,7 +46,7 @@ A professional, production-ready medical assistant application built with **Flas
 - View comprehensive results including:
     - **Symptom Analysis**: Possible conditions, severity, actions, warning signs.
     - **Medical Knowledge**: Information from indexed PDFs.
-    - **Web Search Results**: Relevant information from Google Search.
+
 
 ### 2. Upload Medical Documents
 - Drag and drop a PDF file into the upload area or click to select.
@@ -105,7 +80,6 @@ Smart_Doctors_Assistant/
 ├── services/               # Business logic
 │   ├── embedder.py         # PDF embedding service
 │   ├── final_report.py     # Report generation
-│   ├── google_search.py    # Google Search service
 │   ├── rag_engine.py       # RAG retrieval engine
 │   └── symptom_engine.py   # Symptom analysis engine
 ├── uploads/                # Uploaded PDF files
@@ -125,13 +99,13 @@ Smart_Doctors_Assistant/
 
 ### RAG & Analysis Enhancements
 - **Detailed Responses**: Improved prompts to generate comprehensive, structured medical responses (bullet points, sections).
-- **Google Search**: Integrated Google Search to fetch up-to-date information from the web.
+
 - **Symptom Analysis**: Structured output covering possible conditions, severity, actions, warning signs, and self-care.
 - **Top-K**: Increased default retrieval count to 10 for richer context.
 
 ### Fixes
 - **PDF Upload**: Restored and fixed the PDF upload functionality with better error handling and logging.
-- **Dependencies**: Added `googlesearch-python` and `beautifulsoup4`.
+- **Dependencies**: Updated dependencies for better stability.
 
 ---
 
