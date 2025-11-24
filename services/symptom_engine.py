@@ -3,7 +3,7 @@ from core.logger import get_logger
 
 logger = get_logger()
 
-def analyze_symptoms(symptoms: str, settings, temperature: float):
+def analyze_symptoms(symptoms: str, settings, temperature: float, context: str = ""):
     llm = ChatGoogleGenerativeAI(
         model=settings.LLM_MODEL,
         google_api_key=settings.GOOGLE_API_KEY,
@@ -11,10 +11,20 @@ def analyze_symptoms(symptoms: str, settings, temperature: float):
         max_output_tokens=2048,
     )
 
+    context_section = ""
+    if context:
+        context_section = f"""
+Context from Patient's Uploaded Medical Report:
+{context}
+
+Note: The user has uploaded a medical report. If their query asks about specific details (like "is fever mentioned in the report?"), use the context above to answer. If the context doesn't contain the information, explicitly state that it's not found in the uploaded segments.
+"""
+
     prompt = f"""You are an experienced medical assistant providing detailed symptom analysis.
 
-Patient's Symptoms:
+Patient's Query/Symptoms:
 {symptoms}
+{context_section}
 
 Please provide a comprehensive analysis including:
 
@@ -25,7 +35,10 @@ Please provide a comprehensive analysis including:
 5. **Self-Care Tips**: Things they can do at home to manage symptoms
 6. **When to Seek Help**: Specific situations when they should see a doctor
 
-Provide a detailed, well-organized response with clear sections. Be thorough but easy to understand."""
+Instructions:
+- If the user asks about their specific report, prioritize the 'Context' provided above.
+- If the query is general, provide general medical advice based on the symptoms.
+- Provide a detailed, well-organized response with clear sections. Be thorough but easy to understand."""
 
     try:
         resp = llm.invoke(prompt)

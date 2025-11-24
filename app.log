@@ -855,3 +855,76 @@
 2025-11-23 17:58:20,784 | INFO | Saving file to: uploads\uploaded.pdf
 2025-11-23 17:58:20,829 | INFO | Starting PDF embedding
 2025-11-23 17:58:24,308 | INFO | Embedded 23 chunks
+2025-11-24 13:24:02,802 | INFO | Report generated.
+2025-11-24 13:24:32,048 | INFO | Upload request received
+2025-11-24 13:24:32,079 | INFO | File received: MANU PRATAP SINGH (2).pdf
+2025-11-24 13:24:32,084 | INFO | Saving file to: uploads\uploaded.pdf
+2025-11-24 13:24:32,097 | INFO | Starting PDF embedding
+2025-11-24 13:24:33,955 | INFO | Embedded 23 chunks
+2025-11-24 13:25:58,266 | INFO | Report generated.
+2025-11-24 13:26:22,240 | INFO | Upload request received
+2025-11-24 13:26:22,281 | INFO | File received: MANU PRATAP SINGH (2).pdf
+2025-11-24 13:26:22,290 | INFO | Saving file to: uploads\uploaded.pdf
+2025-11-24 13:26:22,300 | INFO | Starting PDF embedding
+2025-11-24 13:26:23,754 | INFO | Embedded 23 chunks
+2025-11-24 13:26:58,229 | INFO | Report generated.
+2025-11-24 13:31:24,037 | INFO | Upload request received
+2025-11-24 13:31:24,071 | INFO | File received: MANU PRATAP SINGH (2).pdf
+2025-11-24 13:31:24,095 | INFO | Saving file to: uploads\uploaded.pdf
+2025-11-24 13:31:24,199 | INFO | Starting PDF embedding
+2025-11-24 13:31:24,207 | INFO | Loading PDF from uploads\uploaded.pdf
+2025-11-24 13:31:30,293 | INFO | Loaded 10 pages. Total text length: 17195
+2025-11-24 13:31:30,300 | INFO | Split into 23 chunks
+2025-11-24 13:31:32,065 | INFO | Successfully added 23 chunks to Vector DB
+2025-11-24 13:31:32,076 | INFO | Embedded 23 chunks
+2025-11-24 13:31:32,132 | INFO | Total documents in DB after upload: 1451
+2025-11-24 13:32:08,376 | INFO | Retrieving documents for query: I have fever is it mentioned in this report. with top_k=10
+2025-11-24 13:32:08,960 | INFO | Retrieved 10 documents
+2025-11-24 13:32:08,961 | INFO | Found 4 unique documents
+2025-11-24 13:32:08,962 | INFO | Added evidence from knowledge base
+2025-11-24 13:32:19,012 | INFO | Report generated.
+2025-11-24 13:36:25,733 | INFO | Upload request received
+2025-11-24 13:36:25,757 | INFO | File received: MANU PRATAP SINGH (2).pdf
+2025-11-24 13:36:25,760 | INFO | Saving file to: uploads\uploaded.pdf
+2025-11-24 13:36:25,776 | INFO | Starting PDF embedding
+2025-11-24 13:36:25,778 | INFO | Loading PDF from uploads\uploaded.pdf
+2025-11-24 13:36:29,635 | INFO | Loaded 10 pages. Total text length: 17195
+2025-11-24 13:36:29,646 | INFO | Split into 23 chunks
+2025-11-24 13:36:31,439 | INFO | Successfully added 23 chunks to Vector DB
+2025-11-24 13:36:31,444 | INFO | Embedded 23 chunks
+2025-11-24 13:36:31,490 | INFO | Total documents in DB after upload: 1474
+2025-11-24 13:36:33,023 | INFO | Retrieving documents for query: I have fever. is it mentioned in the report? with top_k=10
+2025-11-24 13:36:33,706 | INFO | Retrieved 10 documents
+2025-11-24 13:36:33,710 | INFO | Found 4 unique documents
+2025-11-24 13:36:33,713 | INFO | Added evidence from knowledge base
+2025-11-24 13:36:54,849 | INFO | Report generated.
+2025-11-24 13:38:07,200 | INFO | Retrieving documents for query: Is there any issue in my report, How is my heart health and my urine. with top_k=10
+2025-11-24 13:38:07,690 | INFO | Retrieved 10 documents
+2025-11-24 13:38:07,691 | INFO | Found 3 unique documents
+2025-11-24 13:38:07,693 | INFO | Added evidence from knowledge base
+2025-11-24 13:38:18,240 | INFO | Report generated.
+2025-11-24 13:39:23,801 | INFO | Retrieving documents for query: describe me overall report in simple word in hindi with top_k=10
+2025-11-24 13:39:24,281 | INFO | Retrieved 10 documents
+2025-11-24 13:39:24,283 | INFO | Found 5 unique documents
+2025-11-24 13:39:24,287 | INFO | Added evidence from knowledge base
+2025-11-24 13:39:35,916 | INFO | Report generated.
+2025-11-24 13:40:04,532 | INFO | Retrieving documents for query: Describe overall report with top_k=10
+2025-11-24 13:40:04,987 | INFO | Retrieved 10 documents
+2025-11-24 13:40:04,988 | INFO | Found 5 unique documents
+2025-11-24 13:40:04,990 | INFO | Added evidence from knowledge base
+2025-11-24 13:40:14,228 | INFO | Report generated.
+2025-11-24 13:40:43,964 | INFO | Retrieving documents for query: explain me the issues in my report with top_k=10
+2025-11-24 13:40:44,433 | INFO | Retrieved 10 documents
+2025-11-24 13:40:44,435 | INFO | Found 4 unique documents
+2025-11-24 13:40:44,436 | INFO | Added evidence from knowledge base
+2025-11-24 13:40:54,387 | INFO | Report generated.
+2025-11-24 13:41:35,188 | INFO | Retrieving documents for query: I have fever, cough and cold with top_k=10
+2025-11-24 13:41:35,630 | INFO | Retrieved 10 documents
+2025-11-24 13:41:35,631 | INFO | Found 4 unique documents
+2025-11-24 13:41:35,634 | INFO | Added evidence from knowledge base
+2025-11-24 13:41:58,041 | INFO | Report generated.
+2025-11-24 13:44:06,044 | INFO | Retrieving documents for query: I have fever cough and cold. What home remedies i can use for this. with top_k=10
+2025-11-24 13:44:06,509 | INFO | Retrieved 10 documents
+2025-11-24 13:44:06,511 | INFO | Found 4 unique documents
+2025-11-24 13:44:06,514 | INFO | Added evidence from knowledge base
+2025-11-24 13:44:25,085 | INFO | Report generated.

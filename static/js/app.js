@@ -113,11 +113,15 @@ function displayResults(result, query) {
     const badge = badgeMap[route] || badgeMap['knowledge'];
 
     let html = `
-        <div class="panel-card result-card">
+        <div class="panel-card result-card" id="printableArea">
             <div class="result-header">
                 <div class="result-icon-box">📋</div>
-                <div>
+                <div style="flex: 1;">
                     <h2 class="result-title">Analysis Results</h2>
+                </div>
+                <div class="result-actions">
+                    <button onclick="copyReport()" class="btn-icon" title="Copy Report">📋</button>
+                    <button onclick="printReport()" class="btn-icon" title="Print Report">🖨️</button>
                 </div>
             </div>
             
@@ -133,18 +137,18 @@ function displayResults(result, query) {
 
     if (symptomAnalysis) {
         html += `
-            <div class="result-section">
+            <div class="result-section markdown-content">
                 <h3>🩺 Symptom Analysis</h3>
-                <p>${escapeHtml(symptomAnalysis)}</p>
+                ${renderMarkdown(symptomAnalysis)}
             </div>
         `;
     }
 
     if (ragSummary) {
         html += `
-            <div class="result-section">
+            <div class="result-section markdown-content">
                 <h3>📚 Medical Knowledge Summary</h3>
-                <p>${escapeHtml(ragSummary)}</p>
+                ${renderMarkdown(ragSummary)}
             </div>
         `;
     }
@@ -159,6 +163,30 @@ function displayResults(result, query) {
 
     resultsContainer.innerHTML = html;
     resultsContainer.style.display = 'block';
+}
+
+function renderMarkdown(text) {
+    if (!text) return '';
+    // Configure marked to be secure and use breaks
+    marked.setOptions({
+        breaks: true,
+        gfm: true
+    });
+    const rawHtml = marked.parse(text);
+    return DOMPurify.sanitize(rawHtml);
+}
+
+function copyReport() {
+    const content = document.getElementById('printableArea').innerText;
+    navigator.clipboard.writeText(content).then(() => {
+        showToast('Report copied to clipboard', 'success');
+    }).catch(() => {
+        showToast('Failed to copy report', 'error');
+    });
+}
+
+function printReport() {
+    window.print();
 }
 
 function handleFileSelect(e) {
@@ -355,3 +383,5 @@ function escapeHtml(text) {
 }
 
 window.loadHistoryItem = loadHistoryItem;
+window.copyReport = copyReport;
+window.printReport = printReport;

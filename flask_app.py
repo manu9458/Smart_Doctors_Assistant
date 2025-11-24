@@ -95,6 +95,12 @@ def upload_pdf():
         logger.info(f"Embedded {count} chunks")
         
         if count > 0:
+            try:
+                total_count = vector_db._collection.count()
+                logger.info(f"Total documents in DB after upload: {total_count}")
+            except:
+                pass
+                
             return jsonify({
                 'success': True,
                 'message': f'Successfully indexed {count} chunks!'

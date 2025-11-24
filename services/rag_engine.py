@@ -9,8 +9,10 @@ def run_rag(query, vector_db, settings, top_k, temperature):
     
     # Get documents from vector database
     try:
+        logger.info(f"Retrieving documents for query: {query} with top_k={top_k}")
         retriever = vector_db.as_retriever(search_kwargs={"k": top_k})
         docs = retriever.invoke(query)
+        logger.info(f"Retrieved {len(docs)} documents")
         
         seen = set()
         unique = []
@@ -19,14 +21,21 @@ def run_rag(query, vector_db, settings, top_k, temperature):
                 seen.add(d.page_content)
                 unique.append(d)
         
+        logger.info(f"Found {len(unique)} unique documents")
+        
         if unique:
             db_evidence = "\n\n---\n\n".join([d.page_content for d in unique])
             evidence_parts.append(f"**From Medical Knowledge Base:**\n{db_evidence}")
+            logger.info("Added evidence from knowledge base")
+        else:
+            logger.warning("No unique documents found after filtering")
+
     except Exception as e:
         logger.warning(f"Vector DB retrieval failed: {str(e)}")
         unique = []
     
     if not evidence_parts:
+        logger.info("No evidence found in RAG, returning empty.")
         return None, unique
     
     evidence = "\n\n==========\n\n".join(evidence_parts)
